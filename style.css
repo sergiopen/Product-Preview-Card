@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Roboto:wght@100&display=swap');
+
+body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container__content{
+    display: block;
+    background-color: #fff;
+    width: 25%;
+    border-radius: 0 5% 5% 0;
+}
+
+.container__h1{
+    max-width: 10ch;
+}
+
+.container__title{
+    padding: 1rem;
+}
+
+.container__p__obj{
+    color: #aaa;
+}
+
+.container__p{
+    max-width: 75%;
+    margin-top: -0.8rem;
+    color: #777;
+}
+
+/* PRICES */
+
+.container__prices{
+    margin: -1.5rem 0;
+}
+
+.container__prices span{
+    margin: 0 1rem;
+}
+
+.container__prices .container__span__price{
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+}
+
+.container__buy{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container__span__discount{
+    position: relative;
+    top: -0.5rem;
+    text-decoration: line-through;
+}
+
+.container__buy button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: #fff;
+    padding: 1rem 5.5rem;
+    margin: 2.1rem auto;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.container__img img{
+    display: block;
+    width: 18rem;
+    border-radius: 5% 0 0 5%;
+}
